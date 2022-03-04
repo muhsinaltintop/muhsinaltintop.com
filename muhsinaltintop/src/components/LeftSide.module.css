@@ -1,0 +1,44 @@
+main {
+    background-color: bisque;
+    text-align: center;
+    border-top: 2px black solid;
+}
+
+.side_head {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.side_body {
+    min-height: calc(50vh - 75px - 75px);
+}
+
+.side_marketing_logo {
+    font-size: 5ex;
+}
+
+.side_marketing {
+    display: flex;
+    justify-content: space-around;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.side_marketing ul {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    /* border: 1px black solid; */
+    float: left;
+    list-style: none;
+}
+
+.side_marketing ul li {
+    margin-top: 10px;
+}
+
+
+.cv_pdf {
+    margin-bottom: 10px;
+    font-size: 5ex;
+}

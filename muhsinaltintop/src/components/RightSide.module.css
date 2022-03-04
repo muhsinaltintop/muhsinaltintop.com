@@ -1,0 +1,12 @@
+main {
+    background-color: bisque;
+    text-align: center;
+}
+
+.side_head {
+    font-weight: bold;
+}
+
+.side_body {
+    height: 350px;
+}

@@ -1,0 +1,85 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+nav {
+    height: 60px;
+    background-color: #8f8e92;
+    border-bottom: 2px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: #23262a;
+    color: ff6633;
+    min-width: 300px;
+    color: #ff511b;
+    
+}
+
+.logo {
+    color: black;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.logo a {
+    color: #ff511b;
+}
+
+.social {
+    pointer-events: all;
+    float: right;
+    align-content: right;
+    margin-right: 20px;
+}
+
+.social ul {
+    align-items: right;    
+}
+
+.social ul li {
+    list-style: none;
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 450px) {
+    /* Styles */ 
+    nav {
+        min-width: 400px;
+    }
+    .social_logo {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}  
+  /* iPads (portrait and landscape) ----------- */
+  @media screen and (min-width: 451px) and (max-width: 920px) {
+      /* Styles */
+    .social_logo {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}  
+
+/* Desktops and laptops ----------- */
+@media screen and (min-width: 921px) {
+    /* Styles */
+    .social_logo {
+        font-size: 25px;
+    }
+    
+}
+
