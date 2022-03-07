@@ -20,8 +20,24 @@ const NavBar = () => {
                 </div>
             <div className={styles.social}><ul>
                 <li><Facebook className={styles.social_logo}/></li>
-                <li><Instagram className={styles.social_logo}/></li>
-                <li><LinkedIn className={styles.social_logo}/></li>
+                <li>
+                <a
+                    href="https://www.linkedin.com/in/muhsinaltintop/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <Instagram className={styles.social_logo}/>
+                </a>    
+                </li>
+                <li>
+                <a
+                    href="https://www.linkedin.com/in/muhsinaltintop/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <LinkedIn className={styles.social_logo}/>
+                    </a>
+                    </li>
                 </ul></div>
         </nav>
     )

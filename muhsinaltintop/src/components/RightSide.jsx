@@ -52,8 +52,14 @@ const RightSide = () => {
             </div>
             
         </div>
+        <a
+                    href="../Coding_CV_Muhsin_Altintop.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+        >
         <div >Download Cv:</div>
             <div ><FaFilePdf className={styles.cv_pdf}/></div>
+        </a>
         </main>
     )
 
